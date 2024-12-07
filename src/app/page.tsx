@@ -6,7 +6,6 @@ import FreshSales from "./component/FreshSales"
 import Hero from "./component/Hero"
 import Music from "./component/Music"
 import Products from "./component/Product"
-import Topheader from "./component/Topheader"
 
 
 
@@ -14,6 +13,7 @@ import Topheader from "./component/Topheader"
 const Home = ()=>{
   return(
     <div className=" bg-white">
+        
   <Hero/>
   <FreshSales/>
   <Category/>
